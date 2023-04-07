@@ -7,11 +7,11 @@ mounts = []
 primary_region = "waw"
 processes = []
 
-[env]
-  ASPNETCORE_URLS="http://+:8080"
-
 [build]
   image = "kuba7pg/datingapp:latest"
+
+[env]
+  ASPNETCORE_URLS="http://+:8080"
   CloudinarySettings__CloudName="dduvmvsic"
   CloudinarySettings__ApiKey="672535928913617"
 
